@@ -12,39 +12,43 @@ body{
     display:flex;
     justify-content:flex-start;
     align-items:center;
-    padding:40px 0;
+    padding:20px 15px;
     overflow-y:auto;
     flex-direction:column;
     background:#1e90ff;
     background-image:url('https://minilua.net/wp-content/uploads/2020/04/shutterstock_760133494.jpg');
     background-size:cover;
     background-position:center;
+    background-attachment:scroll;
     font-family:Arial, Helvetica, sans-serif;
     text-align:center;
     color:white;
 }
 
 #temporizador{
-    font-size:28px;
+    font-size:22px;
     margin-bottom:20px;
     font-weight:bold;
+    width:100%;
 }
 
 .nomes{
-    font-size:26px;
-    margin-bottom:30px;
+    font-size:22px;
+    margin-bottom:25px;
 }
 
 video{
-    width:300px;
+    width:100%;
+    max-width:350px;
     border-radius:15px;
     margin-bottom:20px;
 }
 
 .texto{
-    width:80%;
-    max-width:600px;
-    font-size:18px;
+    width:100%;
+    max-width:500px;
+    font-size:16px;
+    line-height:1.6;
 }
 </style>
 </head>
