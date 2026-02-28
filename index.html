@@ -109,7 +109,7 @@ function atualizarTempo(){
     const segundos = Math.floor((diferenca / 1000) % 60);
 
     document.getElementById("temporizador").innerHTML =
-        `${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos juntos`;
+        `${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos`;
 }
 
 setInterval(atualizarTempo, 1000);
