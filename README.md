@@ -8,11 +8,13 @@
 <style>
 body{
     margin:0;
-    height:100vh;
+    min-height:100vh;
     display:flex;
-    flex-direction:column;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
+    padding:40px 0;
+    overflow-y:auto;
+    flex-direction:column;
     background:#1e90ff;
     background-image:url('https://minilua.net/wp-content/uploads/2020/04/shutterstock_760133494.jpg');
     background-size:cover;
@@ -20,14 +22,6 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     text-align:center;
     color:white;
-}
-
-.overlay{
-    position:absolute;
-    width:100%;
-    height:100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index:-1;
 }
 
 #temporizador{
@@ -56,7 +50,6 @@ video{
 </head>
 
 <body>
-<div class="overlay"></div>
 
 <div id="temporizador"></div>
 
